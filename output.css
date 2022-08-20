@@ -781,19 +781,19 @@ video {
 }
 
 .bg-\[url\(\'\.\.\/images\/rode8\.png\'\)\] {
-  background-image: url("../images/rode8.png");
+  background-image: url("./images/rode8.png");
 }
 
 .bg-\[url\(\'\.\.\/images\/rode9\.jpg\'\)\] {
-  background-image: url("../images/rode9.jpg");
+  background-image: url("./images/rode9.jpg");
 }
 
 .bg-\[url\(\'\.\.\/images\/rode10\.png\'\)\] {
-  background-image: url("../images/rode10.png");
+  background-image: url("./images/rode10.png");
 }
 
 .bg-\[url\(\'\.\.\/images\/rode11\.png\'\)\] {
-  background-image: url("../images/rode11.png");
+  background-image: url("./images/rode11.png");
 }
 
 .bg-cover {
@@ -810,6 +810,11 @@ video {
 
 .p-4 {
   padding: 1rem;
+}
+
+.py-1 {
+  padding-top: 0.25rem;
+  padding-bottom: 0.25rem;
 }
 
 .py-2 {
@@ -855,11 +860,6 @@ video {
 .py-4 {
   padding-top: 1rem;
   padding-bottom: 1rem;
-}
-
-.py-1 {
-  padding-top: 0.25rem;
-  padding-bottom: 0.25rem;
 }
 
 .pl-32 {
@@ -951,6 +951,11 @@ video {
 .text-\[\#AD9950\] {
   --tw-text-opacity: 1;
   color: rgb(173 153 80 / var(--tw-text-opacity));
+}
+
+.text-gray-700 {
+  --tw-text-opacity: 1;
+  color: rgb(55 65 81 / var(--tw-text-opacity));
 }
 
 .text-black {
